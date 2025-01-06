@@ -1,0 +1,115 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Toolbox Styles */
+.toolbox-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+}
+
+.toolbox-priority-cont {
+    display: flex;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lightpink {
+    background-color: #ffcccb;
+}
+
+.lightgreen {
+    background-color: #90ee90;
+}
+
+.lightblue {
+    background-color: #add8e6;
+}
+
+.black {
+    background-color: #000000;
+}
+
+/* Action Button Styles */
+.action-btn-cont {
+    display: flex;
+}
+
+.add-btn, .remove-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover, .remove-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Main Container Styles */
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Ticket Styles */
+.ticket-cont {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ticket-color {
+    width: 10px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.ticket-id {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.task-area {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.ticket-lock {
+    margin-left: 10px;
+    cursor: pointer;
+}
